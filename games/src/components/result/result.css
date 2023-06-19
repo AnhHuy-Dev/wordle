@@ -1,0 +1,48 @@
+.result-container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -70%);
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	max-width: 400px;
+	min-width: 400px;
+	border-radius: 6px;
+	color: #333;
+}
+
+.result-container > h2 {
+	margin-top: 12px;
+}
+
+.result-container p {
+	font-size: 18px;
+}
+.overlay {
+	position: fixed;
+	inset: 0;
+	background: #333;
+	opacity: 0.9;
+}
+.result-container button {
+	background-color: #ff6651;
+	border: none;
+	color: #fff;
+	padding: 8px 12px;
+	margin: 48px 0 12px 0;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.result-word {
+	padding: 24px 0 0 0;
+}
+
+.result-word > span {
+	font-weight: bold;
+}
